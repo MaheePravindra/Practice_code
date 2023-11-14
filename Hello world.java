@@ -3,9 +3,9 @@ import java.util.Scanner;
 class A{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Mahee Jattu, ");
-        System.out.print("20BCY10064, ");
-        System.out.println("Btech");
+        System.out.print("Your Name, ");
+        System.out.print("Roll Number, ");
+        System.out.println("Branch");
         char ch='A';
         int asc = ch; //implicit type casting(lower to higher)
         System.out.println(asc);
