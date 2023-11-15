@@ -31,7 +31,7 @@ public class FactorsOfNum {
         if(a==0){
             return b;
         }
-
+        // if a!=0 then a can be replaced by b%a and b can be replaced by a
         return GCD(b%a,a);
     }
 
