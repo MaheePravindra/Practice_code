@@ -27,7 +27,7 @@ public class Bitwise {
         for(int i : arr){
             unique ^= i;
         }
-        /*since XOR of any number X
+        /*since XOR of any number X (Basic XOR operation)
         * X^1 = ~X
         * X^0 = X
         * X^X = 0;
